@@ -51,3 +51,14 @@ print(mystack_favorito.isnumeric())
 conversion_string = str(12)
 
 print(type(conversion_string))
+"""Arrays """
+lista=["python","js",100]
+print(f" la lista posee {len(lista)}")
+print(list("Mathias-Dev"))
+data_json = open('/home/henry/dojopy/bootcamp-lunes-miercoles/bootcamp-python/data.json').read()_# data_json.close()
+
+
+with open('/home/henry/dojopy/bootcamp-lunes-miercoles/bootcamp-python/data.json') as file:
+    data_json = file.read()
+
+product = json.loads(data_json)

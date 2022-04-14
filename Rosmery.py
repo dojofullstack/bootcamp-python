@@ -38,3 +38,9 @@ print(mystack_favorito.isnumeric())
 conversion_string = str(12)
 
 print(type(conversion_string))
+
+#dia 13-04-2022
+print(dir(lista_tareas))
+
+print(list_tareas)
+print(list("rosmery"))

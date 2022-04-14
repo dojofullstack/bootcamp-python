@@ -1,3 +1,8 @@
+# import Dilva
+
+import  json
+
+
 # esto es un comentario en python
 print("hello world");
 
@@ -58,18 +63,82 @@ comentario de multiples lineas
 
 
 """ Tipo de dato Sring """
-mystack_favorito = "python python"
+# mystack_favorito = "python python"
 
-print(type(mystack_favorito))
+# print(type(mystack_favorito))
 
-print(dir(mystack_favorito))
+# print(dir(mystack_favorito))
 
-print(mystack_favorito.upper())
-print(mystack_favorito.lower())
-print(mystack_favorito.replace('py', '00') )
-print(mystack_favorito.find('xyz'))
-print(mystack_favorito.isnumeric())
+# print(mystack_favorito.upper())
+# print(mystack_favorito.lower())
+# print(mystack_favorito.replace('py', '00') )
+# print(mystack_favorito.find('xyz'))
+# print(mystack_favorito.isnumeric())
 
-conversion_string = str(12)
+# conversion_string = str(12)
 
-print(type(conversion_string))
+# print(type(conversion_string))
+
+
+# """ TIPO DE DATO ARRAY O LISTA """
+
+# lista_tareas = ['aprender python' , 'aprender javascript',100]
+
+# print('mi lista tiene: ',len(lista_tareas) ,'elementos')
+# print(f'mi lista tiene {len(lista_tareas)} elementos ')
+
+# print(type(lista_tareas))
+# print(dir(lista_tareas))
+
+# lista_tareas.append('aprender React Native')
+
+# print(lista_tareas)
+
+# lista_tareas.insert('aprender Django')
+
+# mi_nombre="oswaldo"
+# print(list('oswaldo'))
+
+# """ TIPOS DE DATOS BOOLEANOS """
+
+# is_active = True
+
+# print(is_active)
+# print(type(is_active))
+# print(bool(list_tareas))
+
+# print(is_active + 1)
+
+""" tipo de dato dict """
+
+perfil_user = {
+    'nombre' : 'henry',
+    'email' : 'henry@gmail.com',
+    'age' : 24,
+    'lista_stack': [
+        'python' , 'react'
+    ]
+}
+
+# print(perfil_user['nombre'])
+# print(perfil_user['email'])
+
+print(perfil_user.get('emails', 'soporte@gmail.com'))
+
+print(dir(perfil_user))
+
+print(perfil_user.keys())
+
+print(perfil_user.values())
+
+perfil_user['nombre'] = 'Alan'
+print(perfil_user)
+
+del perfil_user['email']
+
+print(perfil_user)
+
+# data_json = open('/direccion').read()
+
+# data_product =json.loads(data_json)
+# print(data_product)

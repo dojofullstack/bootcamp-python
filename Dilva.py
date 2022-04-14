@@ -65,3 +65,4 @@ print(mystack_favorito.isnumeric())
 conversion_string = str(12)
 
 print(type(conversion_string))
+
